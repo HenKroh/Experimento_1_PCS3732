@@ -1,33 +1,34 @@
-const int green_pin =  2;
-const int red_pin   =  3;
-const int yellow_pin=  4;
+#include <Adafruit_NeoPixel.h>
+
+#define PIN 8 
+#define NUMPIXELS 1
 
 int state = 0;
 
+Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+
 void setup() {
-  pinMode(green_pin, OUTPUT);
-  pinMode(red_pin, OUTPUT);
-  pinMode(yellow_pin, OUTPUT);
+  pixels.begin();
 }
 
 void green_state(){
-  digitalWrite(green_pin, HIGH);
-  digitalWrite(red_pin, LOW);
-  digitalWrite(yellow_pin, LOW);
+  pixels.clear();
+  pixels.setPixelColor(0, pixels.Color(0, 255, 0));
+  pixels.show();
   delay(3000);
 }
 
 void red_state(){
-  digitalWrite(green_pin, LOW);
-  digitalWrite(red_pin, HIGH);
-  digitalWrite(yellow_pin, LOW);
+  pixels.clear();
+  pixels.setPixelColor(0, pixels.Color(255, 0, 0));
+  pixels.show();
   delay(4000);
 }
 
 void yellow_state(){
-  digitalWrite(green_pin, LOW);
-  digitalWrite(red_pin, LOW);
-  digitalWrite(yellow_pin, HIGH);
+  pixels.clear();
+  pixels.setPixelColor(0, pixels.Color(255, 255, 0));
+  pixels.show();
   delay(1000);
 }
 
