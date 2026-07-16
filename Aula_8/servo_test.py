@@ -14,20 +14,20 @@ servo =  AngularServo(myGPIO,initial_angle=0,min_angle=0, max_angle=180,min_puls
 
 def loop():
     while True:
-        for angle in range(0, 181, 1):   # make servo rotate from 0 to 180 deg
+        for angle in range(0, 181, 1):
             servo.angle = angle
             time.sleep(SERVO_DELAY_SEC)
         time.sleep(0.5)
-        for angle in range(180, -1, -1): # make servo rotate from 180 to 0 deg
+        for angle in range(180, -1, -1):
             servo.angle = angle
             time.sleep(SERVO_DELAY_SEC)
         time.sleep(0.5)
 
-if __name__ == '__main__':     # Program entrance
+if __name__ == '__main__':
     print ('Program is starting...')
     try:
         loop()
-    except KeyboardInterrupt:  # Press ctrl-c to end the program.
+    except KeyboardInterrupt:
         print("Ending program")
     finally:
         destroy()
