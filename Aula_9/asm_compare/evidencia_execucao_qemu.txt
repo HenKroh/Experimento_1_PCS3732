@@ -1,0 +1,27 @@
+=== RISC-V64 via qemu-riscv64-static ===
+$ qemu-riscv64-static ./4_bit_calc.riscv64 add 0001 0010
+Resultado: 0011
+
+$ qemu-riscv64-static ./4_bit_calc.riscv64 add 0111 0111
+Resultado: 1110
+Overflow
+
+$ qemu-riscv64-static ./4_bit_calc.riscv64 mul 0011 0010
+Resultado: 0110
+
+$ qemu-riscv64-static ./4_bit_calc.riscv64 fac 0011
+Resultado: 0110
+
+=== AArch64 via qemu-aarch64-static ===
+$ qemu-aarch64-static ./4_bit_calc.aarch64 add 0001 0010
+Resultado: 0011
+
+$ qemu-aarch64-static ./4_bit_calc.aarch64 add 0111 0111
+Resultado: 1110
+Overflow
+
+$ qemu-aarch64-static ./4_bit_calc.aarch64 mul 0011 0010
+Resultado: 0110
+
+$ qemu-aarch64-static ./4_bit_calc.aarch64 fac 0011
+Resultado: 0110

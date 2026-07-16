@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-Bit Signed Binary Calculator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #eef2f3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .calculator {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            width: 320px;
+        }
+
+        /* Result field at the top */
+        .result-field {
+            background-color: #aed581;
+            color: #1b5e20;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: right;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            min-height: 40px;
+            box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+            word-wrap: break-word;
+        }
+
+        .result-field.overflow {
+            background-color: #ff8a80;
+            color: #b71c1c;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .main-interface {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Left Column: Stacked Inputs */
+        .inputs-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1;
+        }
+
+        .inputs-column input {
+            width: 100%;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.6rem;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid #555;
+            background-color: #222;
+            color: #fff;
+            border-radius: 6px;
+        }
+
+        .inputs-column input:focus {
+            border-color: #aed581;
+            outline: none;
+        }
+
+        /* Right Column: Square Pad with 4 Buttons */
+        .buttons-square {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 120px;
+            /* height: 120px; */
+            padding-top: 20px;
+        }
+
+        .buttons-square button {
+            background-color: #444;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.1s;
+        }
+
+        .buttons-square button:hover {
+            background-color: #555;
+        }
+
+        .buttons-square button:active {
+            background-color: #aed581;
+            color: #222;
+        }
+
+        .label {
+            color: #aaa;
+            font-size: 0.8rem;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="calculator">
+    <div class="result-field" id="result">0000</div>
+
+    <form method="GET" action="">
+        <div class="main-interface">
+            <div class="inputs-column">
+                <div>
+                    <div class="label">Binary Num 1</div>
+                    <input type="text" name="num1" id="num1" pattern="[01]{4}" maxlength="4" placeholder="0000" required title="Must be a 4-bit binary number (e.g., 0101)">
+                </div>
+                <div>
+                    <div class="label">Binary Num 2</div>
+                    <input type="text" name="num2" id="num2" pattern="[01]{4}" maxlength="4" placeholder="0000" title="Must be a 4-bit binary number (e.g., 1110)">
+                </div>
+            </div>
+
+            <div class="buttons-square">
+                <button type="submit" name="op" value="add" title="Addition">+</button>
+                <button type="submit" name="op" value="sub" title="Subtraction">-</button>
+                <button type="submit" name="op" value="mul" title="Multiplication">*</button>
+                <button type="submit" name="op" value="fact" title="Factorial (Num 1 only)">!</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        // Parse GET parameters from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const num1Str = urlParams.get('num1');
+        const num2Str = urlParams.get('num2');
+        const op = urlParams.get('op');
+
+        const resultDisplay = document.getElementById('result');
+
+        // Helper: Convert 4-bit signed binary (Two's Complement) to Decimal
+        function binToSignedInt(bin) {
+            let val = parseInt(bin, 2);
+            if (bin[0] === '1') { // If MSB is 1, it's negative
+                val -= 16;
+            }
+            return val;
+        }
+
+        // Helper: Convert Decimal back to 4-bit signed binary
+        function signedIntToBin(val) {
+            if (val < -8 || val > 7) return "OVERFLOW";
+            if (val < 0) {
+                val = 16 + val; // Convert negative to its two's complement unsigned representation
+            }
+            return val.toString(2).padStart(4, '0');
+        }
+
+        // If the form was submitted via GET
+        if (num1Str !== null && op !== null) {
+            // Repopulate fields for seamless UX
+            document.getElementById('num1').value = num1Str;
+            if (num2Str) document.getElementById('num2').value = num2Str;
+
+            // Simple validation regex
+            const binRegex = /^[01]{4}$/;
+            if (!binRegex.test(num1Str) || (op !== 'fact' && !binRegex.test(num2Str))) {
+                resultDisplay.innerText = "ERROR";
+                resultDisplay.classList.add('overflow');
+                return;
+            }
+
+            const n1 = binToSignedInt(num1Str);
+            const n2 = num2Str ? binToSignedInt(num2Str) : 0;
+            
+            let decimalResult = 0;
+            let isOverflow = false;
+
+            // Perform chosen operation
+            switch(op) {
+                case 'add':
+                    decimalResult = n1 + n2;
+                    break;
+                case 'sub':
+                    decimalResult = n1 - n2;
+                    break;
+                case 'mul':
+                    decimalResult = n1 * n2;
+                    break;
+                case 'fact':
+                    // Factorial is only defined for non-negative integers.
+                    // Max value 4-bit signed can store without overflow is 7.
+                    // 0! = 1, 1! = 1, 2! = 2, 3! = 6. 4! = 24 (Overflows!)
+                    if (n1 < 0 || n1 > 3) {
+                        isOverflow = true;
+                    } else {
+                        decimalResult = 1;
+                        for (let i = 2; i <= n1; i++) {
+                            decimalResult *= i;
+                        }
+                    }
+                    break;
+                default:
+                    return;
+            }
+
+            // Determine final output string
+            let finalOutput = "";
+            if (isOverflow) {
+                finalOutput = "OVERFLOW";
+            } else {
+                finalOutput = signedIntToBin(decimalResult);
+            }
+
+            // Display results
+            resultDisplay.innerText = finalOutput;
+            if (finalOutput === "OVERFLOW") {
+                resultDisplay.classList.add('overflow');
+            } else {
+                resultDisplay.classList.remove('overflow');
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
