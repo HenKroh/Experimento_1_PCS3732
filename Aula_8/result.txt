@@ -1,0 +1,5400 @@
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0001(1)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0010(2)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0011(3)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0100(4)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0101(5)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0110(6)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 0111(7)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 1000(8)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 1001(9)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 1010(10)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 1011(11)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 1100(12)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 1101(13)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0000(0)
+B: 1110(14)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0000(0)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0001(1)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0010(2)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0011(3)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0100(4)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0101(5)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0110(6)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 0111(7)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 1000(8)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 1001(9)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 1010(10)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 1011(11)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 1100(12)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 1101(13)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0001(1)
+B: 1110(14)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0000(0)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0001(1)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0010(2)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0011(3)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0100(4)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0101(5)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0110(6)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 0111(7)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 1000(8)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 1001(9)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 1010(10)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 1011(11)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 1100(12)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 1101(13)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0010(2)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0000(0)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0001(1)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0010(2)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0011(3)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0100(4)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0101(5)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0110(6)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 0111(7)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 1000(8)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 1001(9)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 1010(10)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 1011(11)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 1100(12)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0011(3)
+B: 1110(14)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0000(0)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0001(1)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0010(2)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0011(3)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0100(4)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0101(5)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0110(6)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 0111(7)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 1000(8)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 1001(9)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 1010(10)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 1011(11)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 1101(13)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0100(4)
+B: 1110(14)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0000(0)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0001(1)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0010(2)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0011(3)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0100(4)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0101(5)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0110(6)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 1000(8)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 1001(9)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 1010(10)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 1100(12)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 1101(13)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0101(5)
+B: 1110(14)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0000(0)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0001(1)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0010(2)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0011(3)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0100(4)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0101(5)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 0111(7)
+Resultado: 1101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 1000(8)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 1001(9)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 1011(11)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 1100(12)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 1101(13)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0110(6)
+B: 1110(14)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0000(0)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0001(1)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0010(2)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0011(3)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0100(4)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0110(6)
+Resultado: 1101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 0111(7)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 1000(8)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 1010(10)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 1011(11)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 1100(12)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 1101(13)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 0111(7)
+B: 1110(14)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0000(0)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0001(1)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0010(2)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0011(3)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0100(4)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0101(5)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0110(6)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 0111(7)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 1000(8)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 1001(9)
+Resultado: 0001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 1010(10)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 1011(11)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 1100(12)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 1101(13)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1000(8)
+B: 1110(14)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0000(0)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0001(1)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0010(2)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0011(3)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0100(4)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0101(5)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0110(6)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 1000(8)
+Resultado: 0001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 1001(9)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 1010(10)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 1011(11)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 1100(12)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 1101(13)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1001(9)
+B: 1110(14)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0000(0)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0001(1)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0010(2)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0011(3)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0100(4)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0101(5)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 0111(7)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 1000(8)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 1001(9)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 1010(10)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 1011(11)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 1100(12)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 1101(13)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1010(10)
+B: 1110(14)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0000(0)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0001(1)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0010(2)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0011(3)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0100(4)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0110(6)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 0111(7)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 1000(8)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 1001(9)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 1010(10)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 1011(11)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 1100(12)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 1101(13)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1011(11)
+B: 1110(14)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0000(0)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0001(1)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0010(2)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0011(3)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0101(5)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0110(6)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 0111(7)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 1000(8)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 1001(9)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 1010(10)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 1011(11)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 1100(12)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 1101(13)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1100(12)
+B: 1110(14)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0000(0)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0001(1)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0010(2)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0100(4)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0101(5)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0110(6)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 0111(7)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 1000(8)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 1001(9)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 1010(10)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 1011(11)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 1100(12)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 1101(13)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1101(13)
+B: 1110(14)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0000(0)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0001(1)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0011(3)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0100(4)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0101(5)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0110(6)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 0111(7)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 1000(8)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 1001(9)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 1010(10)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 1011(11)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 1100(12)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 1101(13)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: add
+A: 1110(14)
+B: 1110(14)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0001(1)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0010(2)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0011(3)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0100(4)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0101(5)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0110(6)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 0111(7)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 1000(8)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 1001(9)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 1010(10)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 1011(11)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 1100(12)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 1101(13)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0000(0)
+B: 1110(14)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0000(0)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0010(2)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0011(3)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0100(4)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0101(5)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0110(6)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 0111(7)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 1000(8)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 1001(9)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 1010(10)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 1011(11)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 1100(12)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 1101(13)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0001(1)
+B: 1110(14)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0000(0)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0001(1)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0011(3)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0100(4)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0101(5)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0110(6)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 0111(7)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 1000(8)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 1001(9)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 1010(10)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 1011(11)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 1100(12)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 1101(13)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0010(2)
+B: 1110(14)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0000(0)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0001(1)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0010(2)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0100(4)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0101(5)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0110(6)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 0111(7)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 1000(8)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 1001(9)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 1010(10)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 1011(11)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 1100(12)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 1101(13)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0011(3)
+B: 1110(14)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0000(0)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0001(1)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0010(2)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0011(3)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0101(5)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0110(6)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 0111(7)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 1000(8)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 1001(9)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 1010(10)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 1011(11)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 1100(12)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 1101(13)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0100(4)
+B: 1110(14)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0000(0)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0001(1)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0010(2)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0011(3)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0100(4)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0110(6)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 0111(7)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 1000(8)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 1010(10)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 1011(11)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 1100(12)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 1101(13)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0101(5)
+B: 1110(14)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0000(0)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0001(1)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0010(2)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0011(3)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0100(4)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0101(5)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 0111(7)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 1000(8)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 1001(9)
+Resultado: 1101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 1011(11)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 1100(12)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 1101(13)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0110(6)
+B: 1110(14)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0000(0)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0001(1)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0010(2)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0011(3)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0100(4)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0101(5)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0110(6)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 1000(8)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 1001(9)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 1010(10)
+Resultado: 1101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 1100(12)
+Resultado: 1011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 1101(13)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 0111(7)
+B: 1110(14)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0000(0)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0001(1)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0010(2)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0011(3)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0100(4)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0101(5)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0110(6)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 0111(7)
+Resultado: 0001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 1000(8)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 1001(9)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 1010(10)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 1011(11)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 1100(12)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 1101(13)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1000(8)
+B: 1110(14)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0000(0)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0001(1)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0010(2)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0011(3)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0100(4)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0101(5)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0110(6)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 0111(7)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 1000(8)
+Resultado: 0001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 1010(10)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 1011(11)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 1100(12)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 1101(13)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1001(9)
+B: 1110(14)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0000(0)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0001(1)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0010(2)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0011(3)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0100(4)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0101(5)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0110(6)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 0111(7)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 1000(8)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 1001(9)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 1011(11)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 1100(12)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 1101(13)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1010(10)
+B: 1110(14)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0000(0)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0001(1)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0010(2)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0011(3)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0100(4)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0101(5)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0110(6)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 0111(7)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 1000(8)
+Resultado: 0011 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 1001(9)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 1010(10)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 1100(12)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 1101(13)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1011(11)
+B: 1110(14)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0000(0)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0001(1)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0010(2)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0011(3)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0100(4)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0101(5)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0110(6)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 0111(7)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 1000(8)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 1001(9)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 1010(10)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 1011(11)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 1101(13)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1100(12)
+B: 1110(14)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0000(0)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0001(1)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0010(2)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0011(3)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0100(4)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0101(5)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0110(6)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 0111(7)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 1000(8)
+Resultado: 0101 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 1001(9)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 1010(10)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 1011(11)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 1100(12)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1101(13)
+B: 1110(14)
+Resultado: 1111
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0000(0)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0001(1)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0010(2)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0011(3)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0100(4)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0101(5)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0110(6)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 0111(7)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 1000(8)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 1001(9)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 1010(10)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 1011(11)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 1100(12)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 1101(13)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: sub
+A: 1110(14)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0000(0)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0001(1)
+Resultado: 0001
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0010(2)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0011(3)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0100(4)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0101(5)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0110(6)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 0111(7)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 1000(8)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 1001(9)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 1010(10)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 1011(11)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 1100(12)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 1101(13)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0001(1)
+B: 1110(14)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0001(1)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0010(2)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0011(3)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0100(4)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0101(5)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0110(6)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 0111(7)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 1000(8)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 1001(9)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 1010(10)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 1011(11)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 1100(12)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 1101(13)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0010(2)
+B: 1110(14)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0001(1)
+Resultado: 0011
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0010(2)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0011(3)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0100(4)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0101(5)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0110(6)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 0111(7)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 1000(8)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 1001(9)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 1010(10)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 1011(11)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 1100(12)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 1101(13)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0011(3)
+B: 1110(14)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0001(1)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0010(2)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0011(3)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0100(4)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0101(5)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0110(6)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 0111(7)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 1000(8)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 1001(9)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 1010(10)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 1011(11)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 1100(12)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 1101(13)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0100(4)
+B: 1110(14)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0001(1)
+Resultado: 0101
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0010(2)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0011(3)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0100(4)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0101(5)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0110(6)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 0111(7)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 1000(8)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 1001(9)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 1010(10)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 1011(11)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 1100(12)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 1101(13)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0101(5)
+B: 1110(14)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0001(1)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0010(2)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0011(3)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0100(4)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 1000(8)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 1001(9)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 1010(10)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 1011(11)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 1100(12)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 1101(13)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0110(6)
+B: 1110(14)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0001(1)
+Resultado: 0111
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0010(2)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0011(3)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0100(4)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0101(5)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0110(6)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 0111(7)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 1000(8)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 1001(9)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 1010(10)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 1011(11)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 1100(12)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 1101(13)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 0111(7)
+B: 1110(14)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0001(1)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0010(2)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0011(3)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0100(4)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0101(5)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0110(6)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 0111(7)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 1000(8)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 1001(9)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 1010(10)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 1011(11)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 1100(12)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 1101(13)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1000(8)
+B: 1110(14)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0001(1)
+Resultado: 1001
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0010(2)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0011(3)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0100(4)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0101(5)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0110(6)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 0111(7)
+Resultado: 0010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 1000(8)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 1001(9)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 1010(10)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 1011(11)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 1100(12)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 1101(13)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1001(9)
+B: 1110(14)
+Resultado: 1110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0001(1)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0010(2)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0011(3)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0100(4)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0101(5)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0110(6)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 0111(7)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 1000(8)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 1100(12)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 1101(13)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1010(10)
+B: 1110(14)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0001(1)
+Resultado: 1011
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0010(2)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0011(3)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0100(4)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0101(5)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0110(6)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 0111(7)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 1000(8)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 1001(9)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 1010(10)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 1011(11)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 1100(12)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 1101(13)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1011(11)
+B: 1110(14)
+Resultado: 1010 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0001(1)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0010(2)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0011(3)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0100(4)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0101(5)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0110(6)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 0111(7)
+Resultado: 0100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 1000(8)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 1001(9)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 1010(10)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 1011(11)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 1100(12)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 1101(13)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1100(12)
+B: 1110(14)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0000(0)
+Resultado: 0000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0001(1)
+Resultado: 1101
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0010(2)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0011(3)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0100(4)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0101(5)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0110(6)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 0111(7)
+Resultado: 0111 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 1000(8)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 1001(9)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 1010(10)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 1011(11)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 1100(12)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 1101(13)
+Resultado: 1001 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1101(13)
+B: 1110(14)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0001(1)
+Resultado: 1110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0010(2)
+Resultado: 1100
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0011(3)
+Resultado: 1010
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0100(4)
+Resultado: 1000
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0101(5)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0110(6)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 0111(7)
+Resultado: 0110 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 1000(8)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 1001(9)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 1010(10)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 1011(11)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 1100(12)
+Resultado: 1000 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 1101(13)
+Resultado: 0110
+
+--- Nova Operacao Recebida ---
+Operacao: mul
+A: 1110(14)
+B: 1110(14)
+Resultado: 0100
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0000(0)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0001(1)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0000(0)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0001(1)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0010(2)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0011(3)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0100(4)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0101(5)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0110(6)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 0111(7)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 1000(8)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 1001(9)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 1010(10)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 1011(11)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 1100(12)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 1101(13)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0010(2)
+B: 1110(14)
+Resultado: 0010
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0011(3)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0000(0)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0001(1)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0010(2)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0011(3)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0100(4)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 1000(8)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 1100(12)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 1101(13)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0100(4)
+B: 1110(14)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0101(5)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0000(0)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0001(1)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0010(2)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0011(3)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0100(4)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 1000(8)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 1100(12)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 1101(13)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0110(6)
+B: 1110(14)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 0111(7)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0000(0)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0001(1)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0010(2)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0011(3)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0100(4)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 1000(8)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 1100(12)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 1101(13)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1000(8)
+B: 1110(14)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1001(9)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0000(0)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0001(1)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0010(2)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0011(3)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0100(4)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 1000(8)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 1100(12)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 1101(13)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1010(10)
+B: 1110(14)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1011(11)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0000(0)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0001(1)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0010(2)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0011(3)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0100(4)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 1000(8)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 1100(12)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 1101(13)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1100(12)
+B: 1110(14)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0000(0)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0001(1)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0010(2)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0011(3)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0100(4)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0101(5)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0110(6)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 0111(7)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 1000(8)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 1001(9)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 1010(10)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 1011(11)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 1100(12)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 1101(13)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1101(13)
+B: 1110(14)
+Resultado: 0000
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0000(0)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0001(1)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0010(2)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0011(3)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0100(4)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0101(5)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0110(6)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 0111(7)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 1000(8)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 1001(9)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 1010(10)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 1011(11)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 1100(12)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 1101(13)
+Resultado: 1100 [Overflow]
+
+--- Nova Operacao Recebida ---
+Operacao: fac
+A: 1110(14)
+B: 1110(14)
+Resultado: 1100 [Overflow]
