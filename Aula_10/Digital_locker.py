@@ -20,19 +20,19 @@ rowsPins = [16, 20, 21, 26]
 colsPins = [19, 13, 6, 5]
 
 
+keypad = Keypad.Keypad(keys,rowsPins,colsPins,ROWS,COLS)
+keypad.setDebounceTime(100)
+lcd1602 = CharLCD1602()
+lcd1602.init_lcd()
+buzzer = TonalBuzzer(4)
+sensor = DistanceSensor(echo=15, trigger=14 ,max_distance=3)
+
+password = ""
+blocked = False
+closed = True
+wrong_tries = 0
+    
 def loop():
-    keypad = Keypad.Keypad(keys,rowsPins,colsPins,ROWS,COLS)
-    keypad.setDebounceTime(100)
-    lcd1602 = CharLCD1602()
-    lcd1602.init_lcd()
-    buzzer = TonalBuzzer(4)
-    sensor = DistanceSensor(echo=15, trigger=14 ,max_distance=3)
-    
-    password = ""
-    blocked = False
-    closed = True
-    wrong_tries = 0
-    
     while(True):
         distance = sensor.distance*100
         if distance >= 30:
