@@ -1,0 +1,24 @@
+; Instalação:
+;   sudo cp smartlock.service /etc/systemd/system/
+;   sudo systemctl enable --now smartlock
+;
+; Ajuste WorkingDirectory se o repositório não estiver em /home/pi.
+
+[Unit]
+Description=SmartLock — periférico BLE da fechadura
+After=bluetooth.target
+Requires=bluetooth.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/pi/Experimento_1_PCS3732/Aula_11/raspberry
+ExecStart=/usr/bin/python3 -m smartlock run
+Environment=SMARTLOCK_DATABASE=/var/lib/smartlock/smartlock.db
+; O banco guarda segredos; só o dono lê.
+UMask=0077
+StateDirectory=smartlock
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
