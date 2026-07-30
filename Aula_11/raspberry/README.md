@@ -56,26 +56,57 @@ O `deviceId` é o que aparece em `devices` e nas notificações do app.
 
 ## Ligações
 
-Padrão em BCM; tudo configurável por variável de ambiente.
+Os padrões são os da **Freenove Projects Board for Raspberry Pi** usada na
+bancada. Nessa placa os periféricos estão em pinos fixos, então os valores
+abaixo não são uma escolha nossa — são o que a placa oferece. Numeração BCM;
+tudo configurável por variável de ambiente.
 
-| Função | GPIO | Variável |
-| --- | --- | --- |
-| Botão Permitir | 17 | `SMARTLOCK_BUTTON_APPROVE_PIN` |
-| Botão Negar | 27 | `SMARTLOCK_BUTTON_DENY_PIN` |
-| LED aguardando | 5 | `SMARTLOCK_LED_WAITING_PIN` |
-| LED aprovado | 6 | `SMARTLOCK_LED_APPROVED_PIN` |
-| LED negado | 13 | `SMARTLOCK_LED_DENIED_PIN` |
-| LED destravado | 19 | `SMARTLOCK_LED_UNLOCKED_PIN` |
-| Relé / servo | 22 | `SMARTLOCK_ACTUATOR_PIN` |
-| Sensor de porta | — | `SMARTLOCK_DOOR_SENSOR_PIN` |
+| Função | GPIO | Onde fica na placa | Variável |
+| --- | --- | --- | --- |
+| Botão Permitir | 26 | botão **S4** (amarelo) | `SMARTLOCK_BUTTON_APPROVE_PIN` |
+| Botão Negar | 21 | botão **S5** (vermelho) | `SMARTLOCK_BUTTON_DENY_PIN` |
+| LED aguardando | 5 | conector RGB LED, pino R | `SMARTLOCK_LED_WAITING_PIN` |
+| LED aprovado | 6 | conector RGB LED, pino G | `SMARTLOCK_LED_APPROVED_PIN` |
+| LED negado | 13 | conector RGB LED, pino B | `SMARTLOCK_LED_DENIED_PIN` |
+| LED destravado | 17 | **Blue LED** soldado na placa | `SMARTLOCK_LED_UNLOCKED_PIN` |
+| Relé | 12 | relé **K1** | `SMARTLOCK_ACTUATOR_PIN` |
+| Sensor de porta | — | — | `SMARTLOCK_DOOR_SENSOR_PIN` |
 
-Botões entre o GPIO e o terra, usando o pull-up interno: repouso em nível alto,
-pressionado em nível baixo, detecção na borda de descida com debounce de 300 ms.
-LEDs com resistor de série. O atuador **precisa de fonte separada** — um relé
-alimentado pelos 3V3 da Pi derruba a placa no acionamento.
+Os outros dois botões, se quiser trocar: **S6** (azul) é GPIO20 e **S7** (verde)
+é GPIO16.
 
-Para relé com lógica invertida (comum nos módulos de 1 canal):
-`SMARTLOCK_ACTUATOR_ACTIVE_HIGH=0`.
+### Function Selection Switch
+
+A placa multiplexa os periféricos em duas chaves DIP. Sem isto, os GPIOs acima
+não chegam a lugar nenhum:
+
+| Bloco | Posição | Estado | Por quê |
+| --- | --- | --- | --- |
+| S3 | 5, 6, 7, 8 | **ON** | grupo *2-Button* — liga os quatro botões |
+| S2 | 2 | **ON** | *4-Relay* |
+| S2 | 3 | **ON** | *5-Blue LED* |
+| S2 | 1 | **OFF** | *3-Active Buzzer* divide o GPIO12 com o relé |
+
+Deixe *7-LED Matrix*, *8-7-Segment LED* e *9-LED Bar Graph* (S2 5, 6, 7)
+desligados: os três 74HC595 ocupam GPIO17, 27 e 22, e o 17 é o nosso LED azul.
+*1-Stepping Motor* (S3 1–4) também precisa ficar desligado — divide pinos com o
+conector do RGB LED.
+
+### Polaridade
+
+Botões da placa vão do GPIO ao terra e usamos o pull-up interno: repouso em
+nível alto, pressionado em nível baixo, borda de descida com debounce de 300 ms.
+
+O conector *RGB LED* é de **anodo comum** (o pino comum vai ao 5V), então um
+módulo ligado ali acende em nível baixo — nesse caso use
+`SMARTLOCK_LED_ACTIVE_LOW=1`. O LED azul da placa é normal (acende em nível
+alto), e o padrão do serviço é nível alto; sem módulo RGB conectado, os três
+LEDs de status ainda aparecem nos indicadores por GPIO da régua de pinos.
+
+O relé da placa aciona em nível alto — o padrão. Para módulos de relé externos
+de lógica invertida: `SMARTLOCK_ACTUATOR_ACTIVE_HIGH=0`. Fechadura de verdade
+**precisa de fonte separada**: um solenoide alimentado pelos 3V3 da Pi derruba a
+placa no acionamento.
 
 ## Configuração
 
@@ -94,6 +125,7 @@ Tudo tem padrão razoável; sobrescreva pelo ambiente com o prefixo `SMARTLOCK_`
 | `LOCKOUT_DURATION` | `30` | duração do bloqueio |
 | `REQUIRE_ENCRYPTION` | `0` | exige emparelhamento com link criptografado |
 | `USE_GPIO` | `1` | desligue para rodar sem hardware |
+| `LED_ACTIVE_LOW` | `0` | LEDs de status em anodo comum (módulo RGB) |
 
 Trocar `LOCK_ID` faz o app tratar a fechadura como outra e pedir cadastro de
 novo — a credencial guardada é indexada por ele.

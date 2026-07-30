@@ -74,6 +74,7 @@ class RaspberryGPIO:
         button_approve: int,
         button_deny: int,
         leds: dict[str, int],
+        leds_active_low: bool = False,
         actuator_pin: int,
         actuator_active_high: bool = True,
         door_sensor_pin: int | None = None,
@@ -85,6 +86,7 @@ class RaspberryGPIO:
         self._button_approve = button_approve
         self._button_deny = button_deny
         self._leds = dict(leds)
+        self._leds_active_low = leds_active_low
         self._actuator_pin = actuator_pin
         self._actuator_active_high = actuator_active_high
         self._door_sensor_pin = door_sensor_pin
@@ -94,8 +96,9 @@ class RaspberryGPIO:
         GPIO.setwarnings(False)
         GPIO.setup(button_approve, GPIO.IN, pull_up_down=GPIO.PUD_UP)
         GPIO.setup(button_deny, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        # Mesmo cuidado do atuador: nascer apagado, sem pulso na configuração.
         for pin in self._leds.values():
-            GPIO.setup(pin, GPIO.OUT, initial=GPIO.LOW)
+            GPIO.setup(pin, GPIO.OUT, initial=GPIO.HIGH if leds_active_low else GPIO.LOW)
 
         # O atuador começa travado. `initial` evita o pulso espúrio que
         # aconteceria se configurássemos a saída e só depois escrevêssemos o nível.
@@ -127,7 +130,9 @@ class RaspberryGPIO:
         pin = self._leds.get(name)
         if pin is None:
             return
-        self._gpio.output(pin, self._gpio.HIGH if on else self._gpio.LOW)
+        lit = self._gpio.LOW if self._leds_active_low else self._gpio.HIGH
+        dark = self._gpio.HIGH if self._leds_active_low else self._gpio.LOW
+        self._gpio.output(pin, lit if on else dark)
 
     def set_actuator(self, engaged: bool) -> None:
         active = self._gpio.HIGH if self._actuator_active_high else self._gpio.LOW
@@ -153,6 +158,7 @@ def create_backend(config) -> GPIOBackend:
             button_approve=config.button_approve_pin,
             button_deny=config.button_deny_pin,
             leds=config.led_pins,
+            leds_active_low=config.led_active_low,
             actuator_pin=config.actuator_pin,
             actuator_active_high=config.actuator_active_high,
             door_sensor_pin=config.door_sensor_pin,
