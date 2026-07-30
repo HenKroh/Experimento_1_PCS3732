@@ -55,9 +55,10 @@ Duas consequências:
 
 - O app recusa escrever payload maior que o MTU negociado
   (`maximumWriteValueLength`) em vez de deixar o BlueZ truncar em silêncio.
-- Uma central que não negocie MTU maior receberá o `Approval Status` truncado. Se
-  isso aparecer no Android, o caminho é fragmentar a mensagem — não aumentar o
-  segredo de forma alguma.
+- Uma central que não negocie MTU maior receberá o `Approval Status` truncado. O
+  Android começa nos 23 bytes do ATT padrão, então o app pede `requestMtu(185)`
+  logo após conectar. Se algum aparelho recusar o pedido, o caminho é fragmentar
+  a mensagem — não encurtar o segredo de forma alguma.
 
 ## Notificações são difundidas
 

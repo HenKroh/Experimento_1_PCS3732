@@ -19,7 +19,7 @@ Gerados para este projeto. Todos os sufixos são `-5F6D-4C3E-9A2B-7E8F0D1C2B3A`.
 | --- | --- |
 | Raspberry | `raspberry/smartlock/protocol.py` (minúsculas, como o BlueZ exige) |
 | iOS | `ios/SmartLock/Protocol/LockProtocol.swift` |
-| Android | `android/…/protocol/LockProtocol.kt` (ainda não implementado) |
+| Android | `android/app/src/main/java/com/example/locker/protocol/LockProtocol.kt` |
 
 ## Anúncio
 
