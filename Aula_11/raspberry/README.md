@@ -44,6 +44,33 @@ python3 -m smartlock run --no-gpio     # 'a' + Enter aprova, 'd' + Enter nega
 Ainda assim é preciso BlueZ com adaptador BLE; só os botões, LEDs e o relé é que
 viram log.
 
+### Por SSH, deixando rodando
+
+Para o teste de bancada, em que você quer acompanhar o log mas não quer que o
+serviço morra ao fechar o SSH. A Pi do laboratório não tem `tmux` nem `screen`,
+então o caminho abaixo não instala nada:
+
+```sh
+ssh b3@raspberry-pi-labproc.local          # ou pelo IP
+cd ~/Experimento_1_PCS3732/Aula_11/raspberry && git pull
+sudo nohup python3 -m smartlock -v run > /tmp/smartlock.log 2>&1 &
+```
+
+O `sudo` pede a senha antes de soltar em segundo plano, e o `nohup` faz o
+processo sobreviver ao fim da sessão. Repare que o `-v` vem **antes** do `run`:
+é opção do comando principal, não do subcomando.
+
+```sh
+tail -f /tmp/smartlock.log     # acompanhar; Ctrl-C só para de olhar
+pgrep -af smartlock            # ainda está de pé?
+sudo pkill -f "m smartlock"    # derrubar
+```
+
+É no log que aparecem a solicitação de cadastro vinda do app, a hora de apertar
+o botão de aprovar e o desbloqueio. Depois que o fluxo completo estiver
+confirmado, instale o `smartlock.service` em vez disto — aí o serviço sobe no
+boot e o log sai por `journalctl -u smartlock -f`.
+
 ## Administração
 
 ```sh
