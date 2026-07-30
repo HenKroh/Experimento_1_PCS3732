@@ -175,6 +175,79 @@ nRF Connect: a fechadura deve aparecer como `SmartLock-Sala`, expor o serviço
 `a1b20001-…` com sete características, e a leitura de `a1b20002-…` deve devolver
 o JSON do Device Information.
 
+## Contorno: anúncio pelo `btmgmt` (julho de 2026)
+
+**Isto é contorno de um bug de terceiro. Apague o código quando a combinação
+kernel/BlueZ da bancada for corrigida.**
+
+### O sintoma
+
+O serviço GATT registra normalmente, mas o anúncio não: o
+`LEAdvertisingManager1.RegisterAdvertisement` responde `org.bluez.Error.Failed`
+e, sem anúncio, o app iOS nunca enxerga a fechadura.
+
+### A causa
+
+Na bancada — Pi 3B+ (controlador BCM4345C0), kernel `6.18.34+rpt-rpi-v8`,
+BlueZ 5.82. Rastreado com `btmon`:
+
+* o `bluetoothd` 5.82 usa o caminho MGMT de *extended advertising*:
+  `Add Ext Adv Params` (0x0054) seguido de `Add Ext Adv Data` (0x0055);
+* o params retorna `Success`; o data retorna `Invalid Parameters (0x0d)` — com
+  payload de **qualquer** tamanho, inclusive 0 bytes. Não é tamanho nem conteúdo
+  do pacote;
+* o controlador reporta HCI version 9 (BT 5.0) mas tem o bit 12 de LE Features
+  (LE Extended Advertising) em **zero**: `LE: 3f 00 00 08 00 00 00 00`. Ele não
+  suporta o recurso que o `bluetoothd` insiste em usar.
+
+O caminho MGMT **legado** (`Add Advertising`, 0x003e) funciona no mesmo
+controlador, no mesmo instante — e é o que o `btmgmt add-adv` usa.
+
+### O que o `runner.py` faz
+
+Tenta primeiro o caminho D-Bus de sempre. Só se ele falhar é que chama
+
+```sh
+btmgmt --index <n> add-adv -u <uuid do serviço> -c -g -n 1
+```
+
+`-c` connectable, `-g` general-discoverable, `-n` põe o nome local no scan
+response (o `Alias` do adaptador, que o runner já ajusta para
+`ADVERTISED_NAME`). O índice vem de `SMARTLOCK_ADAPTER` (`hci0` → `--index 0`) e
+a instância `1` está dentro da faixa aceita pelo controlador (`advinfo` reporta
+`Max instances: 5`; instância 0 ou 6 dá `Invalid Parameters` e não tem nada a ver
+com este bug).
+
+O serviço GATT continua registrado pelo `bluetoothd` — só o anúncio muda de
+caminho, e o iOS não vê diferença. A instância é removida com `rm-adv` no
+encerramento; se o serviço for morto com `SIGKILL`, limpe à mão com
+`sudo btmgmt clr-adv`.
+
+Detalhe do `btmgmt` que custou tempo: ele roda em cima do `bt_shell` e, mesmo em
+modo não interativo, só encerra ao ver EOF na entrada. Chamá-lo com `/dev/null`
+ou com o stdin herdado do serviço pendura o processo *depois* de já ter
+executado o comando; por isso o runner passa um pipe vazio e fechado.
+
+Em máquina sem BlueZ instalado o contorno apenas registra que o `btmgmt` não
+existe. Se **os dois** caminhos falharem, o serviço loga as duas falhas e encerra.
+
+### Como saber se ainda é necessário
+
+```sh
+sudo btmgmt info | grep -i 'version\|features'   # bit 12 de LE Features
+sudo python3 -m smartlock -v run                 # veja se o D-Bus ainda falha
+```
+
+Se o `RegisterAdvertisement` passar (log `Anunciando como 'SmartLock-Sala'` sem o
+aviso do contorno), o problema acabou: remova o bloco de contorno do
+`runner.py`, o `tests/test_runner.py` e esta seção.
+
+Para confirmar o contorno no ar **enquanto** o serviço roda:
+
+```sh
+sudo btmgmt advinfo      # deve listar 1 instância
+```
+
 ## Protocolo
 
 A especificação compartilhada com iOS e Android está em `../protocol`:
