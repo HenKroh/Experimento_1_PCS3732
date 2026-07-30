@@ -32,11 +32,13 @@ def _env_bool(name: str, default: bool) -> bool:
 
 
 def _default_leds() -> dict[str, int]:
+    # `unlocked` fica no LED azul soldado na placa (GPIO17); os outros três saem
+    # no conector do módulo RGB (R=5, G=6, B=13). Ver a tabela do README.
     return {
         "waiting": _env_int("LED_WAITING_PIN", 5),
         "approved": _env_int("LED_APPROVED_PIN", 6),
         "denied": _env_int("LED_DENIED_PIN", 13),
-        "unlocked": _env_int("LED_UNLOCKED_PIN", 19),
+        "unlocked": _env_int("LED_UNLOCKED_PIN", 17),
     }
 
 
@@ -53,11 +55,18 @@ class Config:
     database_path: str = field(default_factory=lambda: _env_str("DATABASE", "smartlock.db"))
 
     # Hardware
+    #
+    # Padrões para a Freenove Projects Board for Raspberry Pi: os periféricos
+    # dela estão em pinos fixos, então estes valores não são livres — botões
+    # S4/S5, relé e LED azul. Ver "Ligações" no README.
     use_gpio: bool = field(default_factory=lambda: _env_bool("USE_GPIO", True))
-    button_approve_pin: int = field(default_factory=lambda: _env_int("BUTTON_APPROVE_PIN", 17))
-    button_deny_pin: int = field(default_factory=lambda: _env_int("BUTTON_DENY_PIN", 27))
+    button_approve_pin: int = field(default_factory=lambda: _env_int("BUTTON_APPROVE_PIN", 26))
+    button_deny_pin: int = field(default_factory=lambda: _env_int("BUTTON_DENY_PIN", 21))
     led_pins: dict[str, int] = field(default_factory=_default_leds)
-    actuator_pin: int = field(default_factory=lambda: _env_int("ACTUATOR_PIN", 22))
+    # O módulo RGB da placa é de anodo comum (ligado ao 5V): acende em nível
+    # baixo. Ligue isto se os LEDs de status estiverem nesse conector.
+    led_active_low: bool = field(default_factory=lambda: _env_bool("LED_ACTIVE_LOW", False))
+    actuator_pin: int = field(default_factory=lambda: _env_int("ACTUATOR_PIN", 12))
     actuator_active_high: bool = field(default_factory=lambda: _env_bool("ACTUATOR_ACTIVE_HIGH", True))
     door_sensor_pin: int | None = field(
         default_factory=lambda: (
