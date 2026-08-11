@@ -5,7 +5,7 @@ desafio–resposta contra a Raspberry Pi. Fase 3 do plano, e a parte da fase 5 q
 cabe ao celular.
 
 Fala exatamente o mesmo protocolo do app iOS — mesmos UUIDs, mesmo JSON, mesmo
-HMAC. A especificação está em [`../protocol/`](../protocol/); o app iOS
+HMAC. A especificação está em [`../../protocol/`](../../protocol/); o app iOS
 equivalente, em [`../ios/`](../ios/).
 
 ## Setup
@@ -101,7 +101,7 @@ na lista da seção 9 do plano e só se testam em bancada.
 
 ## Limitações
 
-As mesmas de `../protocol/security.md`, em especial o segredo difundido no
+As mesmas de `../../protocol/security.md`, em especial o segredo difundido no
 instante do cadastro. Além delas:
 
 - O desbloqueio exige o app aberto; não há serviço em segundo plano.

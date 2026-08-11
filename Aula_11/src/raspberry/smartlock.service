@@ -11,7 +11,7 @@ Requires=bluetooth.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/pi/Experimento_1_PCS3732/Aula_11/raspberry
+WorkingDirectory=/home/pi/Experimento_1_PCS3732/Aula_11/src/raspberry
 ExecStart=/usr/bin/python3 -m smartlock run
 Environment=SMARTLOCK_DATABASE=/var/lib/smartlock/smartlock.db
 ; O banco guarda segredos; só o dono lê.

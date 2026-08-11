@@ -17,7 +17,7 @@ msg = b"unlock\x00" + device_id.encode() + b"\x00" + nonce
 mac = hmac.new(secret, msg, hashlib.sha256).digest()
 ```
 
-Swift: `LockCrypto.response` em `ios/SmartLock/Crypto/LockCrypto.swift`.
+Swift: `LockCrypto.response` em `src/ios/SmartLock/Crypto/LockCrypto.swift`.
 
 A comparação na Raspberry é em tempo constante (`hmac.compare_digest`).
 

@@ -1,0 +1,68 @@
+# Arquitetura de software — modelagem estática (componentes e dependências)
+# SmartLock — PCS3732, Grupo D
+#   d2 arquitetura-software.d2 ../figuras/arquitetura-software.svg
+
+direction: down
+
+contrato: "protocol/ — contrato compartilhado\nuuids.md · messages.md · state-machine.md · security.md" {
+  style.fill: "#fff3cd"
+  style.bold: true
+}
+
+rasp: "Periférico — Raspberry Pi (Python)" {
+  ui: "__main__.py\nCLI: run · devices · revoke · log"
+  runner: "runner.py\nloop GLib · registro BlueZ · contorno btmgmt"
+  ble: "ble_server/\nbluez.py · gatt.py · advertisement.py"
+  service: "service.py\nregras de negócio (sem D-Bus, sem GPIO)" {style.fill: "#d4edda"}
+  auth: "authentication.py\ndesafio-resposta · nonce · sessão · rate limit"
+  enroll: "enrollment.py\nfila de solicitações"
+  db: "database.py\nSQLite: devices + access_log"
+  ctrl: "lock_controller.py\natuador + retravamento"
+  gpio: "gpio.py\nbotões e LEDs (NullGPIO como duplo)"
+  proto: "protocol.py\nUUIDs, encode/decode, validação"
+
+  ui -> runner
+  runner -> ble
+  ble -> service: eventos GATT
+  service -> auth
+  service -> enroll
+  service -> db
+  service -> ctrl
+  service -> gpio
+  service -> proto
+  auth -> proto
+}
+
+ios: "Central — iOS (Swift/SwiftUI)" {
+  views: "Views/\nDiscoveryView · LockDetailView"
+  manager: "Domain/LockManager\nmáquina de estados" {style.fill: "#d4edda"}
+  transport: "Bluetooth/LockTransport\nBLELockTransport | MockLockTransport"
+  crypto: "Crypto/LockCrypto\nHMAC-SHA256"
+  keychain: "Keychain/CredentialStore"
+  lproto: "Protocol/LockProtocol"
+
+  views -> manager
+  manager -> transport
+  manager -> crypto
+  manager -> keychain
+  transport -> lproto
+}
+
+android: "Central — Android (Kotlin/Compose)" {
+  aui: "ui/\nDiscoveryScreen · LockDetailScreen"
+  amanager: "domain/LockManager\nmáquina de estados" {style.fill: "#d4edda"}
+  atransport: "ble/LockTransport\nBleLockTransport | FakeLockTransport"
+  acrypto: "crypto/LockCrypto\nHMAC-SHA256"
+  astore: "storage/CredentialStore\nAES-256-GCM + Keystore"
+  aproto: "protocol/LockProtocol"
+
+  aui -> amanager
+  amanager -> atransport
+  amanager -> acrypto
+  amanager -> astore
+  atransport -> aproto
+}
+
+contrato -> rasp.proto: implementa
+contrato -> ios.lproto: implementa
+contrato -> android.aproto: implementa

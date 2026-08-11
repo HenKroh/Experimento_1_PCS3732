@@ -1,0 +1,51 @@
+# Modelagem comportamental — máquina de estados do app (LockManager)
+# Os três enums são ortogonais: o estado observável é o produto dos três.
+# SmartLock — PCS3732, Grupo D
+#   d2 maquina-estados.d2 ../figuras/maquina-estados.svg
+
+conn: "Conexão" {
+  desconectado -> conectando: "select(fechadura)"
+  conectando -> conectado: "Device Information lido"
+  conectando -> falhou: "erro / timeout"
+  conectado -> falhou: "desconexão inesperada"
+  conectado -> desconectado: "disconnect()"
+  falhou -> conectando: "Tentar novamente"
+
+  conectado: "conectado(LockIdentity)" {style.fill: "#d4edda"}
+  falhou: "falha(motivo)" {style.fill: "#f8d7da"}
+}
+
+cad: "Cadastro" {
+  ocioso -> solicitando: "requestAccess(nome)"
+  solicitando -> aguardando: "Access Request escrito"
+  aguardando -> aprovado: "state=approved e segredo de 32 B"
+  aguardando -> negado: "state=denied"
+  aguardando -> expirado: "state=timeout ou 60 s sem resposta"
+  aguardando -> falha: "segredo inválido / desconexão"
+  aprovado -> ocioso: "removeCredential()"
+
+  aguardando: "aguardando aprovação\n(deadline em tela)"
+  aprovado: "aprovado — credencial gravada" {style.fill: "#d4edda"}
+  negado: "negado" {style.fill: "#f8d7da"}
+  expirado: "expirado" {style.fill: "#fff3cd"}
+  falha: "falha(motivo)" {style.fill: "#f8d7da"}
+}
+
+desb: "Desbloqueio" {
+  ocioso -> autenticando: "unlockDoor() — há credencial"
+  autenticando -> destravando: "Operation Result op=auth status=ok"
+  autenticando -> falha: "denied / rate_limited / timeout"
+  destravando -> destravado: "Operation Result op=unlock status=ok"
+  destravando -> falha: "erro do atuador"
+  destravado -> ocioso: "nova operação"
+
+  autenticando: "autenticando\n(lê nonce, envia MAC)"
+  destravando: "destravando\n(envia Unlock Command)"
+  destravado: "destravado(instante)" {style.fill: "#d4edda"}
+  falha: "falha(motivo)" {style.fill: "#f8d7da"}
+}
+
+nota: "Regra de exclusão: uma operação de domínio por vez.\nUm novo comando cancela a tarefa anterior — duas escritas\nconcorrentes embaralhariam desafio e resposta." {
+  shape: text
+  style.italic: true
+}

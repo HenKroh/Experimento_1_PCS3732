@@ -1,0 +1,42 @@
+# .gitignore do projeto SmartLock (Aula_11)
+#
+# O .gitignore da raiz do repositório ignora *.pdf, *.jpg, *.jpeg e *png para
+# não versionar os artefatos das aulas anteriores. Aqui isso atrapalha: as
+# figuras dos diagramas, as evidências de teste e o relatório exportado
+# precisam entrar no repositório. As linhas abaixo reativam esses formatos
+# apenas dentro de Aula_11/ — um .gitignore mais profundo tem precedência
+# sobre o da raiz.
+!*.pdf
+!*.png
+!*.jpg
+!*.jpeg
+!docs/figuras/*
+!docs/evidencias/*
+
+# Python (serviço da Raspberry)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Banco de dados gerado em tempo de execução — contém segredos dos celulares
+*.db
+*.db-journal
+smartlock.db
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+*.swp
+.idea/workspace.xml
+.vscode/settings.json
+
+# Saídas de build
+build/
+dist/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+local.properties
+.gradle/

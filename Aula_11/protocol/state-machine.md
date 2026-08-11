@@ -1,7 +1,7 @@
 # Máquina de estados
 
 As três implementações precisam concordar nestes estados. A referência
-executável é `raspberry/tests/test_service.py` do lado do periférico e o
+executável é `src/raspberry/tests/test_service.py` do lado do periférico e o
 `MockLockTransport` do lado do app.
 
 ## Conexão

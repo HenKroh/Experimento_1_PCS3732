@@ -1,0 +1,49 @@
+# Modelagem comportamental — cadastro (enrollment) aprovado por botão físico
+# SmartLock — PCS3732, Grupo D
+#   d2 sequencia-cadastro.d2 ../figuras/sequencia-cadastro.svg
+
+shape: sequence_diagram
+
+app: "App (central BLE)"
+gatt: "Camada GATT\n(BlueZ / ble_server)"
+svc: "SmartLockService"
+fila: "EnrollmentQueue"
+db: "Database (SQLite)"
+dono: "Proprietário\n(botão físico)"
+
+app -> gatt: "connect + discover"
+app -> gatt: "StartNotify (Approval Status, Operation Result)"
+app -> gatt: "read Device Information"
+gatt -> app: "{v:1, lockId, lockName, firmware}"
+
+app -> gatt: "write Access Request\n{v:1, deviceId, deviceName}"
+gatt -> svc: "on_access_request(peer, payload)"
+svc -> fila: "add(peer, deviceId, deviceName)"
+svc -> db: "log_access(enroll, pending)"
+svc -> gatt: "notify state=pending"
+gatt -> app: "Approval Status (pending)"
+
+svc -> svc: "LED aguardando aceso"
+fila -> fila: "timer de 55 s armado"
+
+alt: "aprovação dentro de 55 s" {
+  dono -> svc: "pressiona S4 (Permitir)"
+  svc -> fila: "resolve_head()"
+  svc -> svc: "secret = os.urandom(32)"
+  svc -> db: "register_device(deviceId, secret)"
+  svc -> gatt: "notify state=approved + secret (Base64)"
+  gatt -> app: "Approval Status (approved)"
+  app -> app: "valida 32 bytes e grava no\nKeychain / Keystore"
+}
+
+alt2: "negação" {
+  dono -> svc: "pressiona S5 (Negar)"
+  svc -> gatt: "notify state=denied"
+  gatt -> app: "Approval Status (denied)"
+}
+
+alt3: "ninguém decide" {
+  fila -> svc: "on_timeout (55 s)"
+  svc -> gatt: "notify state=timeout"
+  gatt -> app: "Approval Status (timeout)"
+}

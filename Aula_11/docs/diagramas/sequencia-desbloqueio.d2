@@ -1,0 +1,48 @@
+# Modelagem comportamental — desbloqueio por desafio-resposta
+# SmartLock — PCS3732, Grupo D
+#   d2 sequencia-desbloqueio.d2 ../figuras/sequencia-desbloqueio.svg
+
+shape: sequence_diagram
+
+app: "App (central BLE)"
+gatt: "Camada GATT"
+svc: "SmartLockService"
+auth: "Authenticator"
+ctrl: "LockController"
+rele: "Relé K1 / fechadura"
+
+app -> gatt: "read Authentication Challenge"
+gatt -> svc: "on_challenge_read(peer)"
+svc -> auth: "issue_challenge(peer)"
+auth -> auth: "nonce = os.urandom(16)\nexpires_at = agora + 5 s\ndescarta sessão anterior"
+auth -> svc: "(nonce, ttl)"
+svc -> gatt: "{v:1, nonce, ttl:5}"
+gatt -> app: "desafio"
+
+app -> app: "mac = HMAC-SHA256(secret,\n\"unlock\" 0x00 deviceId 0x00 nonce)"
+app -> gatt: "write Authentication Response\n{v:1, deviceId, mac}"
+gatt -> svc: "on_auth_response"
+svc -> auth: "verify_response(peer, deviceId, mac)"
+
+auth -> auth: "1. bloqueado? 2. há desafio?\n3. expirou? 4. nonce já usado?\n5. deviceId autorizado?\n6. compare_digest(esperado, mac)"
+auth -> svc: "Outcome(ok) — abre sessão de 5 s"
+svc -> gatt: "notify Operation Result\n{op:auth, status:ok}"
+gatt -> app: "resultado da autenticação"
+
+app -> gatt: "write Unlock Command\n{v:1, deviceId}"
+gatt -> svc: "on_unlock_command"
+svc -> auth: "consume_session(peer, deviceId)"
+auth -> svc: "Outcome(ok) — sessão consumida"
+svc -> ctrl: "unlock()"
+ctrl -> rele: "set_actuator(True) + LED destravado"
+ctrl -> ctrl: "timer de 5 s para retravar"
+svc -> gatt: "notify Operation Result\n{op:unlock, status:ok}"
+gatt -> app: "porta aberta"
+
+ctrl -> rele: "set_actuator(False) após 5 s"
+
+falha: "recusas possíveis (status != ok)" {
+  auth -> svc: "denied — Desafio expirado / Nonce já utilizado /\nDispositivo não autorizado / Prova criptográfica inválida"
+  auth -> svc: "rate_limited — 3 falhas seguidas, bloqueio de 30 s"
+  svc -> gatt: "Operation Result com o motivo; atuador não é acionado"
+}

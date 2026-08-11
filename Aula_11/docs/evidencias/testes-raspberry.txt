@@ -1,0 +1,32 @@
+Evidência de execução — testes automatizados da Raspberry Pi
+==========================================================
+
+Projeto : SmartLock — PCS3732 Laboratório de Processadores, Grupo D
+Data    : 2026-08-11 17:06 UTC
+Python  : Python 3.10.12
+Comando : cd src/raspberry && python3 -m unittest discover -s tests -t . -v
+Ambiente: máquina de desenvolvimento (sem BlueZ, sem RPi.GPIO).
+          Os testes não dependem de BLE, de GPIO nem do relógio de parede.
+
+----------------------------------------------------------
+
+test_extrai_o_indice_do_nome (tests.test_runner.AdapterIndexTest) ... ok
+test_nome_sem_numero_cai_no_zero (tests.test_runner.AdapterIndexTest) ... ok
+test_as_duas_falhas_encerram_o_servico (tests.test_runner.AdvertisementErrorTest) ... ok
+test_falha_do_dbus_aciona_o_contorno_e_o_loop_segue (tests.test_runner.AdvertisementErrorTest) ... ok
+test_comando_leva_uuid_indice_e_flags (tests.test_runner.BtmgmtFallbackTest) ... ok
+test_maquina_sem_btmgmt_nao_estoura (tests.test_runner.BtmgmtFallbackTest) ... ok
+test_remocao_so_acontece_se_houve_instancia (tests.test_runner.BtmgmtFallbackTest) ... ok
+test_sem_confirmacao_do_mgmt_e_falha (tests.test_runner.BtmgmtFallbackTest) ... ok
+test_autenticacao_vale_para_um_unico_comando (tests.test_service.ServiceTest) ... ok
+test_botao_negar_nao_cadastra (tests.test_service.ServiceTest) ... ok
+test_celular_autorizado_desbloqueia (tests.test_service.ServiceTest) ... ok
+test_celular_nao_autorizado_e_rejeitado (tests.test_service.ServiceTest) ... ok
+test_dispositivo_revogado_nao_desbloqueia (tests.test_service.ServiceTest) ... ok
+test_nonce_expirado_e_rejeitado (tests.test_service.ServiceTest) ... ok
+test_reinicio_preserva_dispositivos_autorizados (tests.test_service.ServiceTest) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.189s
+
+OK

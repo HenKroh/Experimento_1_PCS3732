@@ -1,0 +1,53 @@
+# Arquitetura física do SmartLock — PCS3732, Grupo D
+# Fonte editável. Gere a figura com:
+#   d2 arquitetura-fisica.d2 ../figuras/arquitetura-fisica.svg
+
+direction: right
+
+celulares: Centrais BLE {
+  style.stroke-dash: 3
+
+  ios: "iPhone\niOS 17+ · Core Bluetooth"
+  android: "Android\nminSdk 26 · BluetoothGatt"
+}
+
+pi: Raspberry Pi 3B+ {
+  soc: "SoC BCM2837 · Raspberry Pi OS\nkernel 6.18.34+rpt-rpi-v8" {
+    shape: text
+    style.italic: true
+  }
+  bt: "Controlador BCM4345C0\nBluetooth 4.2 / BLE\nBlueZ 5.82 (bluetoothd)"
+  svc: "Serviço smartlock\n(Python 3, loop GLib)\nSQLite smartlock.db"
+  gpiohdr: "Barramento GPIO (BCM)"
+
+  bt -> svc: D-Bus {style.stroke-dash: 2}
+  svc -> gpiohdr
+}
+
+placa: Freenove Projects Board {
+  s4: "S4 — botão Permitir\nGPIO26, pull-up interno"
+  s5: "S5 — botão Negar\nGPIO21, pull-up interno"
+  rgb: "Conector RGB LED\nR=GPIO5 aguardando\nG=GPIO6 aprovado\nB=GPIO13 negado"
+  azul: "LED azul da placa\nGPIO17 — destravado"
+  k1: "Relé K1\nGPIO12"
+  dip: "Chaves DIP S2/S3\n(seleção de função)" {style.stroke-dash: 4}
+}
+
+atuador: Fechadura eletromecânica {
+  sol: "Solenoide / trava elétrica"
+  fonte: "Fonte externa 12 V\n(obrigatória — não usar os 3V3 da Pi)" {
+    style.fill: "#fff3cd"
+  }
+  fonte -> sol: alimentação
+}
+
+celulares.ios -> pi.bt: "BLE GATT\nserviço A1B20001-…\n7 características\nMTU 185 B"
+celulares.android -> pi.bt: "BLE GATT\nrequestMtu(185)"
+
+pi.gpiohdr -> placa.s4: entrada (borda de descida, debounce 300 ms)
+pi.gpiohdr -> placa.s5: entrada
+pi.gpiohdr -> placa.rgb: saída
+pi.gpiohdr -> placa.azul: saída
+pi.gpiohdr -> placa.k1: saída
+
+placa.k1 -> atuador.sol: contato seco

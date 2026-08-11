@@ -28,7 +28,7 @@ de administração.
 ## Rodar
 
 ```sh
-cd raspberry
+cd src/raspberry
 sudo python3 -m smartlock run
 ```
 
@@ -52,7 +52,7 @@ então o caminho abaixo não instala nada:
 
 ```sh
 ssh b3@raspberry-pi-labproc.local          # ou pelo IP
-cd ~/Experimento_1_PCS3732/Aula_11/raspberry && git pull
+cd ~/Experimento_1_PCS3732/Aula_11/src/raspberry && git pull
 sudo nohup python3 -m smartlock -v run > /tmp/smartlock.log 2>&1 &
 ```
 
@@ -185,7 +185,7 @@ o estado do serviço nunca é tocado de dois lugares ao mesmo tempo.
 ## Testes
 
 ```sh
-cd raspberry
+cd src/raspberry
 python3 -m unittest discover -s tests -t .
 ```
 
@@ -277,5 +277,5 @@ sudo btmgmt advinfo      # deve listar 1 instância
 
 ## Protocolo
 
-A especificação compartilhada com iOS e Android está em `../protocol`:
+A especificação compartilhada com iOS e Android está em `../../protocol`:
 `uuids.md`, `messages.md`, `state-machine.md` e `security.md`.
